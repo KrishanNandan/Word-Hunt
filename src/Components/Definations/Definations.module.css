@@ -39,7 +39,7 @@
 
 @media (max-width: 900px) {
   .meanings {
-    height: 60vh;
+    height: 40vh;
     overflow-x: hidden;
     overflow-y: scroll;
   }

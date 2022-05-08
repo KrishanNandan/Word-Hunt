@@ -3,6 +3,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import Defination from "./Components/Definations/Defination";
 import Header from "./Components/Header/Header";
+import classes from "./App.module.css";
 
 function App() {
   const [word, setWord] = useState("");
@@ -98,7 +99,7 @@ function App() {
           width: "100vw",
         }}
       >
-        <div style={{ margin: "5vh" }}>
+        <div className={classes.theme}>
           <MaterialUISwitch
             checked={backgroundMode}
             onChange={() => setBackgroundMode(!backgroundMode)}

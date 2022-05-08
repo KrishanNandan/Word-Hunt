@@ -1,0 +1,11 @@
+.theme {
+  margin: 5vh;
+  text-align: left;
+}
+
+@media (max-width: 600px) {
+  .theme {
+    margin: 2vh;
+    text-align: center;
+  }
+}
